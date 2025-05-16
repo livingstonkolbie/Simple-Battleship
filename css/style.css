@@ -1,39 +1,67 @@
 
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/battleship-with-planes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
 /* Header */
-header h1 {
-    font-family: "Rubik 80s Fade", system-ui;
+header p {
+    padding-top: 4%;
+    font-family: "Wallpoet", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 6px;
 }
 
 /* Main */
 
 .gameRow {
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 .square {
-    height: 100px;
+    height: 150px;
 }
 
 .square:nth-child(2) {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .square:nth-child(4) {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .square:nth-child(5) {
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 .square:nth-child(6) {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .square:nth-child(8) {
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
