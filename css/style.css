@@ -1,40 +1,39 @@
 
-body {
-    position: relative;
-}
-
-body::before {
-    position: absolute;
-    content: "";
-    background-image: url("https://modernwarships.com/upload/image/MW_BP_MaritimeBlaze_087_no_UI_8b3d18821fd20afa058307cc03f573c4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    z-index: -5;
-    opacity: 0.5;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-} 
-
-
-header p {
+/* Header */
+header h1 {
     font-family: "Rubik 80s Fade", system-ui;
-    font-size: 100px;
 }
 
+/* Main */
 
-.box {
-    border: 2px, solid, black;
+.gameRow {
+    border: 3px solid black;
 }
 
-.gameBoard p {
-    padding: 40px;
+.square {
+    height: 100px;
+}
+
+.square:nth-child(2) {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.square:nth-child(4) {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.square:nth-child(5) {
+    border: 3px solid black;
+}
+
+.square:nth-child(6) {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.square:nth-child(8) {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 }
