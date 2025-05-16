@@ -20,7 +20,7 @@ body::before {
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* Header */
@@ -34,34 +34,8 @@ header p {
 
 /* Main */
 
-.gameRow {
-    border: 5px solid black;
-}
-
 .square {
-
-}
-
-.square:nth-child(2) {
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-}
-
-.square:nth-child(4) {
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-}
-
-.square:nth-child(5) {
-    border: 5px solid black;
-}
-
-.square:nth-child(6) {
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-}
-
-.square:nth-child(8) {
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+    width: 8rem;
+    height: 8rem;
+    border: 8px solid rgba(0, 0, 0, 0.819);
 }
