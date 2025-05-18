@@ -53,3 +53,27 @@ header p {
     height: 8rem;
     border: 8px solid rgba(0, 0, 0, 0.819);
 }
+
+
+/* For the Javascript */
+.correct {
+    background-color: #28a745 !important; /* Green for correct guess */
+}
+
+.incorrect {
+    background-color: #dc3545 !important; /* Red for incorrect guess */
+}
+
+
+/* New Game Button */
+.btn {
+    background-color: rgba(0, 0, 0, 0.814);
+    color: white;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.814);
+    color: white;
+    transform: scale(1.1);
+}
