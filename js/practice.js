@@ -3,7 +3,7 @@
 
 // this gives me a random number between 0 and 8
 let battleshipPosition = Math.floor(Math.random() * 9);
-// console.log(battleshipPosition);
+console.log(battleshipPosition);
 
 
 // this creates an ARRAY of my squares
