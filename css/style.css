@@ -40,6 +40,7 @@ header p {
     width: 100%;
 }
 
+/* had to look up how to made a grid game board */
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 8rem);
@@ -55,16 +56,6 @@ header p {
 }
 
 
-/* For the Javascript */
-.correct {
-    background-color: #28a745 !important; /* Green for correct guess */
-}
-
-.incorrect {
-    background-color: #dc3545 !important; /* Red for incorrect guess */
-}
-
-
 /* New Game Button */
 .btn {
     background-color: rgba(0, 0, 0, 0.814);
@@ -76,4 +67,11 @@ header p {
     background-color: rgba(0, 0, 0, 0.814);
     color: white;
     transform: scale(1.1);
+}
+
+/* Win Button */
+#winText {
+    font-family: "Wallpoet", sans-serif;
+    color: white;
+    font-size: xx-large;
 }
