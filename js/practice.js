@@ -14,7 +14,7 @@ console.log(squares);
 let gameAlreadyWon = false;
 
 for (let i = 0; i < squares.length; i++) {
-    debugger
+
     squares[i].addEventListener("click", () => {
 
         if (gameAlreadyWon === true) {
