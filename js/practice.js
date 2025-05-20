@@ -36,7 +36,7 @@ for (let i = 0; i < squares.length; i++) {
 
 
 
-// Makes the page relaod/restart game... idk if this is the correct way to do it...  looks like it's refreshing the entire pae
+// Makes the page relaod/restart game... idk if this is the correct way to do it...  looks like it's refreshing the entire page
 document.getElementById('restartButton').addEventListener('click', () => {
     window.location.reload();
 });
