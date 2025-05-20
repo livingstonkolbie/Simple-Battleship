@@ -33,7 +33,7 @@ header p {
 }
 
 /* Main */
-/* looked up how to make a cool-er grid game board */
+/* looked up how to make a cool-er grid game board - CSS Grid */
 
 .game-container {
     display: flex;
