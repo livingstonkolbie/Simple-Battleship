@@ -33,6 +33,7 @@ header p {
 }
 
 /* Main */
+/* looked up how to make a cool-er grid game board */
 
 .game-container {
     display: flex;
@@ -40,7 +41,6 @@ header p {
     width: 100%;
 }
 
-/* had to look up how to made a grid game board */
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 8rem);
